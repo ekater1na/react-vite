@@ -6,18 +6,18 @@ export const Footer = () => {
   return (
     <footer className={style.footer}>
       <Container className="">
-        <div className={style.footer__content}>
+        <div className={style.content}>
           <img
-            className={style.footer__logo}
+            className={style.logo}
             src={logo}
             alt="Логотип YourMeal"
           />
 
-          <address className={style.footer__address}>
-            <div className={style.footer__contact}>
-              <h2 className={style.footer__title}>Номер для заказа</h2>
+          <address className={style.address}>
+            <div className={style.contact}>
+              <h2 className={style.title}>Номер для заказа</h2>
 
-              <a className={style.footer__phone} href="tel:+79308333811">
+              <a className={style.phone} href="tel:+79308333811">
                 <svg
                   width="24"
                   height="24"
@@ -32,14 +32,14 @@ export const Footer = () => {
               </a>
             </div>
 
-            <div className={style.footer__contact}>
-              <h2 className={style.footer__title}>Мы в соцсетях</h2>
+            <div className={style.contact}>
+              <h2 className={style.title}>Мы в соцсетях</h2>
 
-              <ul className={style.footer__list}>
-                <li className={style.footer__item}>
+              <ul className={style.list}>
+                <li className={style.item}>
                   <a
                     href="#"
-                    className={style.footer__sn}
+                    className={style.sn}
                     aria-label="группа в вк"
                   >
                     <svg
@@ -54,10 +54,10 @@ export const Footer = () => {
                   </a>
                 </li>
 
-                <li className={style.footer__item}>
+                <li className={style.item}>
                   <a
                     href="#"
-                    className={style.footer__sn}
+                    className={style.sn}
                     aria-label="канал в telegram"
                   >
                     <svg
@@ -75,7 +75,7 @@ export const Footer = () => {
             </div>
           </address>
 
-          <div className={style.footer__development}>
+          <div className={style.development}>
             <p>© YouMeal, 2022</p>
             <p>
               Design: <a href="#">Anastasia Ilina</a>
