@@ -1,4 +1,5 @@
 import { Container } from "./components/Container/Container";
+import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 
 export const App = () => {
@@ -15,7 +16,9 @@ export const App = () => {
           <Container className="navigation__container" />
         </section>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
