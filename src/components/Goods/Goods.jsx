@@ -21,7 +21,7 @@ export const Goods = ({ item }) => {
         </p>
       </div>
 
-      <Count count={2} />
+      <Count count={1} />
     </li>
   );
 };
